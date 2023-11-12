@@ -1,0 +1,121 @@
+{
+  "cone": {
+    "cokolate": {
+      "nama": "Ice Cream rasa Cokolate ",
+      "path": "assets/cone/choko.jpg",
+      "rasa": "Chocolat ",
+      "harga": 7000
+    },
+    "cokolate-chips": {
+      "nama": "Ice Cream rasa Cokolate Chips",
+      "path": "assets/cone/choko-chips.jpg",
+      "rasa": "Chocolat Chips",
+      "harga": 7000
+    },
+    "strawberry": {
+      "nama": "Ice Cream rasa Strawberry ",
+      "path": "assets/cone/strawberry.jpg",
+      "rasa": "strawberry ",
+      "harga": 7000
+    },
+    "vanilla": {
+      "nama": "Ice Cream rasa vanilla ",
+      "path": "assets/cone/vanilla.jpg",
+      "rasa": "vanilla ",
+      "harga": 7000
+    }
+  },
+  "stick": {
+    "cokolate": {
+      "nama": "Ice Cream rasa Cokolate ",
+      "path": "assets/stick/chocolate.jpg",
+      "rasa": "chocolate ",
+      "harga": 10000
+    },
+    "cokolate-chips": {
+      "nama": "Ice Cream rasa Chocolate Chips ",
+      "path": "assets/stick/chocolate-with-almond.jpg",
+      "rasa": "chocolate with almond",
+      "harga": 15000
+    },
+    "stroberry": {
+      "nama": "Ice Cream rasa strawberry ",
+      "path": "assets/stick/strawberry.jpg",
+      "rasa": "vanilla ",
+      "harga": 7000
+    },
+    "vanilla": {
+      "nama": "Ice Cream rasa vanilla ",
+      "path": "assets/stick/vanilla.jpg",
+      "rasa": "vanilla ",
+      "harga": 10000
+    }
+  },
+  "sundae": {
+    "classic ": {
+      "nama": "Sundae classic",
+      "path": "assets/sundae/classic.jpg",
+      "rasa": "classic ",
+      "harga": 30000
+    },
+    "banana-split ": {
+      "nama": "Sundae Banana Split",
+      "path": "assets/sundae/banana-split.jpg",
+      "rasa": "banana split ",
+      "harga": 30000
+    },
+    "brownise ": {
+      "nama": "Brownise Sundae",
+      "path": "assets/sundae/brownie.jpg",
+      "rasa": "brownie",
+      "harga": 30000
+    },
+    "double-fudge": {
+      "nama": "Double Fudge Sundae",
+      "path": "assets/sundae/double-fudge.jpg",
+      "rasa": "Double Fudge",
+      "harga": 30000
+    },
+    "hot-fudge ": {
+      "nama": "Hot Fudge Sundae",
+      "path": "assets/sundae/hot-fudge.jpg",
+      "rasa": "Hot Fudge",
+      "harga": 30000
+    }
+  },
+  "gelato": {
+    "tiramisu ": {
+      "nama": "Gelato tiramisu",
+      "path": "assets/gelato/tiramisu.jpg",
+      "rasa": "tiramisu",
+      "harga": 50000
+    },
+    "caramel": {
+      "nama": "gelato caramel",
+      "path": "assets/gelato/caramel.jpg",
+      "rasa": "caramel ",
+      "harga": 50000
+    },
+    "vanila-choco-chip-biscuit": {
+      "id": 1,
+      "nama": "Gelato vanila choco chip biscuit",
+      "path": "assets/gelato/vanila-choco-chip-biscuit.jpg",
+      "rasa": "vanila choco chip biscuit",
+      "harga": 50000
+    },
+    "dark-chocolate ": {
+      "id": 1,
+      "nama": "Gelato Dark chocolate",
+      "path": "assets/gelato/dark-chocolate.jpg",
+      "rasa": "dark chocolate",
+      "harga": 50000
+    },
+    "espresso-latte ": {
+      "id": 1,
+      "nama": "Gelato expresso latte",
+      "path": "assets/gelato/expresso-latte.jpg",
+      "rasa": "expresso latte",
+      "harga": 50000
+    }
+  }
+}

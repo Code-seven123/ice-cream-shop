@@ -1,0 +1,89 @@
+    	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body{
+		padding-top: 18vh;
+	}
+	nav{
+		padding: 4vh;
+		position: fixed;
+		top: 0px;
+		height: 22vh;
+		background-color: white;
+		width: 100vw;
+		left: 0px;
+		z-index: 1;
+		box-shadow: 0 0 30px grey;
+	}
+	nav ul #nav{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		position: relative;
+	}
+	.show{
+	    animation: show 3s;
+	}
+	.hide{
+	    animation: hide 3s;
+	}
+	.null{
+	    right: 100%;
+	}
+	@keyframes hide{
+	    from{
+	        right: 0%;
+	    }
+	    to{
+	        right: 100%;
+	    }
+	}
+	@keyframes show{
+	    from{
+	        right: 100%;
+	    }
+	    to{
+	        right: 0%;
+	    }
+	}
+	nav ul li a img{
+		width: 4vw;
+		color: white;
+	}
+	nav ul li{
+		list-style: none;
+	}
+	@font-face{
+		font-family: "brushboy";
+		src: url('../assets/Brushboy-Regular.otf');
+	}
+	.spin{
+		transform: rotate(90deg);
+	}
+	.close{
+		transform: rotate(-90deg);
+	}
+	nav ul{
+		flex: 3;
+		overflow: hidden;
+		width: 26vw;
+	}
+	nav button{
+		flex: 0.1;
+		transition: transform 1s;
+		background-color: rgba(0,0,0,0);
+		border: 0;
+		float: left;
+	}
+	nav button img{
+		width: 5vw;
+		color: white;
+	}
+	nav h1{
+		flex: 1;
+		font-size: 2em;
+		letter-spacing: 10px;
+		font-family: "brushboy";
+	}
